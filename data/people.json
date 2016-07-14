@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Sean",
+        "img": "images/person3.png"
+    },
+    {
+        "name": "Yaw",
+        "img": "images/person2.png"
+    },
+    {
+        "name": "Lucy",
+        "img": "images/person5.png"
+    },
+    {
+        "name": "Eric",
+        "img": "images/person1.png"
+    },
+    {
+        "name": "Rory",
+        "img": "images/person4.png"
+    },
+    {
+        "name": "Hayley",
+        "img": "images/person6.png"
+    }
+]

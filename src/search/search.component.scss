@@ -1,0 +1,15 @@
+form {
+  text-align: left;
+
+  input {
+    height: 30px;
+    width : 100%;
+    font-size : 20px;    
+  }
+
+  label {
+    position : absolute;
+    left : -10000px;
+  } 
+}
+
