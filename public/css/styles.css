@@ -1,4 +1,5 @@
 @import "../../node_modules/ng2-toastr/ng2-toastr.css";
 body {
-    color: black;
+  color: #222;
+  font-family: "helvetica neue", arial, helvetica, "lucida grande", sans-serif; 
 }

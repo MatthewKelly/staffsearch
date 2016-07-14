@@ -3,12 +3,14 @@
         <label for="search-term">Search</label>
         <input type="text" id="search-term" name="Search term" [formControl]="searchTerm" placeholder="Enter your search term" />
     </form>
-</section>
+</section> 
 <section>
     <ul class="people">
-        <li *ngFor="let person of people | async">
-            {{person.name}}
-            <img [src]="person.img"/>
+        <li *ngFor="let person of people | async" >
+            <figure>
+                <img [src]="person.img" alt="image of {{person.name}}"/>
+                <figcaption>{{person.name}}</figcaption>
+            </figure>
         </li>
     </ul>
 </section>
