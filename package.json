@@ -1,7 +1,7 @@
 {
-  "name": "staffdirectory",
+  "name": "staffsearch",
   "version": "1.0.0",
-  "description": "Staff directory",
+  "description": "Staff search",
   "scripts": {
     "start": "node server/devServer.js",
     "test": "karma start",
