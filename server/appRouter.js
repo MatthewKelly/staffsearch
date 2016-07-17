@@ -5,12 +5,14 @@ var peopleFilter = require('./utils/peopleFilter');
 var router = express.Router();
 
 router.get('/people/search/', function (req, res) {
+    console.log('Received default search request');
     res.json({ people : people.slice(0,6)});
 });
 
-
 router.get('/people/search/:searchTerm', function (req, res) {
+    console.log('Received search request: ' + searchTerm);
     var searchTerm = req.params.searchTerm;
     res.json({ people : peopleFilter(people, searchTerm)});
+  
 });
 module.exports = router;
