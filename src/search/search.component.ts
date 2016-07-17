@@ -25,7 +25,7 @@ export class PeopleSearchComponent implements OnInit {
     // trigger the first search
     setTimeout(() => {
       this.searchTerm.updateValue('');
-    }, 0)
+    }, 0);
   
   }
 

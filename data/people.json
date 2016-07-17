@@ -1,25 +1,31 @@
 [
     {
+        "id" : 1,
         "name": "Sean",
         "img": "images/person3.png"
     },
     {
+        "id" : 2,
         "name": "Yaw",
         "img": "images/person2.png"
     },
     {
+        "id" : 3,
         "name": "Lucy",
         "img": "images/person5.png"
     },
     {
+        "id" : 4,
         "name": "Eric",
         "img": "images/person1.png"
     },
     {
+        "id" : 5,
         "name": "Rory",
         "img": "images/person4.png"
     },
     {
+        "id" : 6,
         "name": "Hayley",
         "img": "images/person6.png"
     }
