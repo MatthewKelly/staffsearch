@@ -10,8 +10,8 @@ router.get('/people/search/', function (req, res) {
 });
 
 router.get('/people/search/:searchTerm', function (req, res) {
-    console.log('Received search request: ' + searchTerm);
     var searchTerm = req.params.searchTerm;
+    console.log('Received search request: ' + searchTerm);
     res.json({ people : peopleFilter(people, searchTerm)});
   
 });
