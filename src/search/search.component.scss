@@ -1,5 +1,3 @@
-$caption-color: #00BFFF;
-
 form {
   text-align: left;
 
@@ -24,21 +22,6 @@ ul.people {
     }
 }
 
-figure {
-    img {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    figcaption {
-        margin-top: 10px;
-        font-size: 17px;
-        color: $caption-color;
-        font-weight: bold;
-    }
-}
-
-
 //tablet
 @media screen and (min-width : 800px) {
     ul.people {
@@ -56,4 +39,6 @@ figure {
         }
     }
 }
+
+
 
